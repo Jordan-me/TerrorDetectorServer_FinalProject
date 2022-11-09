@@ -1,4 +1,4 @@
-package com.example.TerrorDetectorServer_FinalProject;
+package com.example.webint;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
