@@ -21,7 +21,9 @@ public class AlertServiceMongo implements AlertService{
 
     @Override
     public AlertBoundary getSpecificAlert(String alertID) {
-        return null;
+        return this.alertConverter.toBoundary(
+                this.alertCrud.findByAlertId(alertID)
+        );
     }
 
     @Override
